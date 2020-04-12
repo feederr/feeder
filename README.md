@@ -4,7 +4,7 @@
 `git clone --recurse-submodules https://github.com/feederr/feeder.git` 
 
 ## How to use dependencies from Github packages?
-Add section to you _.m2/settings.xml_:
+Add section to your _.m2/settings.xml_:
 ```
    <servers>
      <server>
