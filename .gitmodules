@@ -1,0 +1,16 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/feederr/feeder-core.git
+	branch = master
+[submodule "application"]
+	path = application
+	url = https://github.com/feederr/feeder-application.git
+	branch = master
+[submodule "authorization"]
+	path = authorization
+	url = https://github.com/feederr/feeder-authorization.git
+	branch = master
+[submodule "statistics"]
+	path = statistics
+	url = https://github.com/feederr/feeder-statistics.git
+	branch = master
