@@ -17,6 +17,10 @@ Add section to your _.m2/settings.xml_:
 * username is your github username;
 * password is your token that could be generated [there](https://github.com/settings/tokens);
 
+## How to build project?
+
+Run `./mvnw clean package` from the root directory
+
 ## How to pull new modules locally in case they was added?
 
 1. `git submodule update --init --recursive --remote`
