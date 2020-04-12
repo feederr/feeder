@@ -14,7 +14,3 @@
 	path = statistics
 	url = https://github.com/feederr/feeder-statistics.git
 	branch = master
-[submodule "devtools"]
-	path = devtools
-	url = https://github.com/feederr/feeder-devtools.git
-	branch = master
