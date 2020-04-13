@@ -44,10 +44,14 @@ Run `./mvnw clean package` from the root directory
 
 * Stop infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/stop-all.sh)
 
-* Build images using via [following script](https://github.com/feederr/feeder-devtools/blob/master/rebuild-all.sh).
+* Build images using via [following script](https://github.com/feederr/feeder-devtools/blob/master/rebuild-all.sh)
 
 > Docker hub account is configured for this organization, so you can pull images using `:latest` tag directly from remote registry. 
 > They will have format: `feederr/{service name}:{version}`
 
+## Useful Intellij Idea plugin to work with umbrella repo:
+
+* GitToolBox
+
 ## If you want to contribute
-* use [appropriate](https://github.com/feederr/feeder/blob/master/google-code-style.xml) code style;
+* use [appropriate](https://github.com/feederr/feeder/blob/master/google-code-style.xml) code style
