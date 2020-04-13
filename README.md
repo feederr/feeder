@@ -47,13 +47,13 @@ Run `./mvnw clean package` from the root directory
 
 ## Docker
 
-* Run infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run-infra.sh) 
+* Run infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run/run-infra.sh) 
 
-* Stop infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/kill-infa.sh) 
+* Stop infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/kill/kill-infa.sh) 
 
-* Run infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run-all.sh)
+* Run infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run/run-all.sh)
 
-* Stop infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/kill-all.sh)
+* Stop infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/kill/kill-all.sh)
 
 * Build images using via [following script](https://github.com/feederr/feeder-devtools/blob/master/rebuild-all.sh)
 
