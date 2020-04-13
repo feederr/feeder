@@ -5,7 +5,7 @@
 
 ## How to use dependencies from Github packages?
 Add section to your _.m2/settings.xml_:
-```
+```xml
    <servers>
      <server>
        <id>github</id>
@@ -16,6 +16,17 @@ Add section to your _.m2/settings.xml_:
 ```
 * username is your github username;
 * password is your token that could be generated [there](https://github.com/settings/tokens);
+
+Add section to your pom.xml:
+
+```xml
+  <repositories>
+    <repository>
+      <id>github</id>
+      <url>${link to github packages}</url>
+    </repository>
+  </repositories>
+```
 
 ## How to build project?
 
