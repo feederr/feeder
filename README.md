@@ -51,7 +51,7 @@ Run `./mvnw clean package` from the root directory
 
 * Stop infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/stop-infa.sh) 
 
-* Run infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/docker-compose.services.yml)
+* Run infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run-all.sh)
 
 * Stop infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/stop-all.sh)
 
