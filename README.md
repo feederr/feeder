@@ -49,11 +49,11 @@ Run `./mvnw clean package` from the root directory
 
 * Run infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run-infra.sh) 
 
-* Stop infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/stop-infa.sh) 
+* Stop infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/kill-infa.sh) 
 
 * Run infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run-all.sh)
 
-* Stop infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/stop-all.sh)
+* Stop infrastructure and service instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/kill-all.sh)
 
 * Build images using via [following script](https://github.com/feederr/feeder-devtools/blob/master/rebuild-all.sh)
 
