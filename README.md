@@ -49,7 +49,7 @@ Run `./mvnw clean package` from the root directory
 > Docker hub account is configured for this organization, so you can pull images using `:latest` tag directly from remote registry. 
 > They will have format: `feederr/{service name}:{version}`
 
-## Useful Intellij Idea plugin to work with umbrella repo:
+## Useful Intellij Idea plugin to work with umbrella repo
 
 * GitToolBox
 
