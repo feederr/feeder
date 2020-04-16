@@ -20,6 +20,7 @@
     <module>core</module>
     <module>authorization</module>
     <module>statistics</module>
+    <module>api-gateway</module>
   </modules>
 
 </project>
