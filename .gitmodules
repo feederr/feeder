@@ -18,3 +18,7 @@
 	path = devtools
 	url = https://github.com/feederr/feeder-devtools.git
 	branch = master
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/feederr/feeder-api-gateway.git
+	branch = master
