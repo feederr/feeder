@@ -2,7 +2,7 @@
 
 POST {{authorization}}/oauth/token?grant_type=client_credentials
 Content-Type: application/json
-Authorization: Basic VEVTVF9DTElFTlQ6VEVTVF9DTElFTlQ= # base64 encoded client_id:client_secret
+Authorization: Basic VEVTVF9DTElFTlQ6VEVTVF9TRUNSRVQ= # base64 encoded client_id:client_secret
 
 > {%
     if(response.body["access_token"]) {
@@ -14,7 +14,7 @@ Authorization: Basic VEVTVF9DTElFTlQ6VEVTVF9DTElFTlQ= # base64 encoded client_id
 
 POST {{authorization}}/oauth/token?grant_type=password&username=TEST_USER&password=TEST_PASS
 Content-Type: application/json
-Authorization: Basic VEVTVF9DTElFTlQ6VEVTVF9DTElFTlQ= # base64 encoded client_id:client_secret
+Authorization: Basic VEVTVF9DTElFTlQ6VEVTVF9TRUNSRVQ= # base64 encoded client_id:client_secret
 
 > {%
     if(response.body["access_token"]) {
