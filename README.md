@@ -45,6 +45,12 @@ Run `./mvnw clean package` from the root directory
 | authorization | 8082 |
 | statistics    | 8083 |
 
+## Clients
+
+| client      | secret      |
+|-------------|-------------|
+| TEST_CLIENT | TEST_SECRET |
+
 ## Docker
 
 * Run infrastructure instances via [following script](https://github.com/feederr/feeder-devtools/blob/master/run/run-infra.sh) 
