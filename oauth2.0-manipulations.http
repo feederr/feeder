@@ -1,0 +1,25 @@
+### Request Access Token for TEST_CLIENT (grant_type=client_credentials)
+
+POST {{authorization}}/oauth/token?grant_type=client_credentials
+Content-Type: application/json
+Authorization: Basic VEVTVF9DTElFTlQ6VEVTVF9DTElFTlQ= # base64 encoded client_id:client_secret
+
+> {%
+    if(response.body["access_token"]) {
+        client.global.set("accessToken", response.body.access_token);
+    }
+%}
+
+### Request Access Token for TEST_USER (grant_type=password)
+
+POST {{authorization}}/oauth/token?grant_type=password&username=TEST_USER&password=TEST_PASS
+Content-Type: application/json
+Authorization: Basic VEVTVF9DTElFTlQ6VEVTVF9DTElFTlQ= # base64 encoded client_id:client_secret
+
+> {%
+    if(response.body["access_token"]) {
+        client.global.set("accessToken", response.body.access_token);
+    }
+%}
+
+###
