@@ -11,8 +11,7 @@ Authorization: Basic {{basicAuth}} # base64 encoded client_id:client_secret
 %}
 
 ### Request Access Token for TEST_USER (grant_type=password)
-
-POST {{authorization}}/oauth/token?grant_type=password&username={{username}}&password={{password}} # password should be base64 encoded to avoid clashes with special symbols
+POST {{authorization}}/oauth/token?grant_type=password&username={{username}}&password={{password}}
 Content-Type: application/json
 Authorization: Basic {{basicAuth}} # base64 encoded client_id:client_secret
 
