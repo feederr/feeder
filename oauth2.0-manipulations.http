@@ -6,7 +6,7 @@ Authorization: Basic VEVTVF9DTElFTlQ6WWsrYm12anR+VzlOTGREWQ== # base64 encoded c
 
 > {%
     if(response.body["access_token"]) {
-        client.global.set("accessToken", response.body.access_token);
+      client.global.set("accessToken", response.body.access_token);
     }
 %}
 
@@ -18,8 +18,26 @@ Authorization: Basic VEVTVF9DTElFTlQ6WWsrYm12anR+VzlOTGREWQ== # base64 encoded c
 
 > {%
     if(response.body["access_token"]) {
-        client.global.set("accessToken", response.body.access_token);
+      client.global.set("accessToken", response.body.access_token);
+    }
+
+    if(response.body["refresh_token"]) {
+      client.global.set("refreshToken", response.body.refresh_token);
     }
 %}
 
-###
+### Refresh Access Token for TEST_USER (grant_type=refresh_token)
+
+POST {{authorization}}/oauth/token?grant_type=refresh_token&refresh_token={{refreshToken}}
+Content-Type: application/json
+Authorization: Basic VEVTVF9DTElFTlQ6WWsrYm12anR+VzlOTGREWQ== # base64 encoded client_id:client_secret
+
+> {%
+    if(response.body["access_token"]) {
+      client.global.set("accessToken", response.body.access_token);
+    }
+
+    if(response.body["refresh_token"]) {
+      client.global.set("refreshToken", response.body.refresh_token);
+    }
+%}
