@@ -49,7 +49,7 @@ Run `./mvnw clean package` from the root directory
 
 | client      | secret      |
 |-------------|-------------|
-| TEST_CLIENT | TEST_SECRET |
+| TEST_CLIENT | Yk+bmvjt~W9NLdDY |
 
 ## Docker
 
